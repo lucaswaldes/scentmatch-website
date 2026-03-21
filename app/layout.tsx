@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Scent Match | Find the fragrance for every version of you',
-  description: 'A personalized experience that connects lifestyle, mood and identity to your ideal scent.',
+  title: 'Scent Match | Your mood, your moment, your scent',
+  description: 'An interactive experience that transforms your daily routine into a personalized fragrance recommendation.',
   // generator: 'v0.app',
   // icons: {
   //   icon: [

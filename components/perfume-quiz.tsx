@@ -30,7 +30,7 @@ const translations = {
     questions: [
       {
         question: "Como está seu dia hoje?",
-        subtitle: "Escolha o que melhor representa seu momento",
+        subtitle: "Descubra a fragrância ideal para o seu momento",
         options: ["Estudos", "Social", "Rotina tranquila"],
       },
       {
@@ -86,7 +86,7 @@ const translations = {
     questions: [
       {
         question: "How is your day going today?",
-        subtitle: "Choose what best represents your current moment",
+        subtitle: "Discover the perfect fragrance for your moment",
         options: ["Studying", "Social", "Quiet routine"],
       },
       {
@@ -142,7 +142,7 @@ const translations = {
     questions: [
       {
         question: "Comment se passe votre journée ?",
-        subtitle: "Choisissez ce qui représente le mieux votre moment",
+        subtitle: "Découvrez le parfum idéal pour chaque instant",
         options: ["Études", "Social", "Routine tranquille"],
       },
       {
