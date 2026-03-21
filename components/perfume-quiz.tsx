@@ -1,11 +1,24 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight, Sparkles, Sun, Users, Coffee, Leaf, Scale, Zap, Citrus, Cherry, TreePine, Globe } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 type Language = "en" | "fr" | "pt"
+
+const getInitialLanguage = (): Language => {
+  if (typeof window === "undefined") return "en"
+
+  const saved = localStorage.getItem("lang") as Language | null
+  if (saved) return saved
+
+  const browser = navigator.language.toLowerCase()
+  if (browser.startsWith("pt")) return "pt"
+  if (browser.startsWith("fr")) return "fr"
+
+  return "en"
+}
 
 const translations = {
   pt: {
@@ -295,7 +308,15 @@ const getResult = (answers: Record<number, string>, lang: Language): PerfumeResu
 }
 
 export function PerfumeQuiz() {
-  const [language, setLanguage] = useState<Language>("en")
+    const [language, setLanguage] = useState<Language>("en")
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lang") as Language
+    if (savedLang) setLanguage(savedLang)
+    setMounted(true)
+  }, [])
+
   const [currentStep, setCurrentStep] = useState(0)
   const [answers, setAnswers] = useState<Record<number, string>>({})
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
@@ -306,6 +327,9 @@ export function PerfumeQuiz() {
   const progress = ((currentStep) / questionData.length) * 100
   const currentQuestion = questionData[currentStep]
   const currentQuestionText = t.questions[currentStep]
+
+
+  if (!mounted) return null
 
   const handleOptionSelect = (value: string) => {
     setSelectedOption(value)
@@ -377,6 +401,7 @@ export function PerfumeQuiz() {
                         key={lang}
                         onClick={() => {
                           setLanguage(lang)
+                          localStorage.setItem("lang", lang)
                           setShowLanguageMenu(false)
                         }}
                         className={cn(
