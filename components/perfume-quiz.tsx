@@ -51,7 +51,7 @@ const translations = {
       {
         question: "Qual frasco da nossa linha você gostaria de usar?",
         subtitle: "Escolha o design que mais combina com você",
-        options: ["Perfume 1", "Perfume 2", "Perfume 3"],
+        options: ["Frasco 1", "Frasco 2", "Frasco 3"],
       },
     ],
     results: {
@@ -121,7 +121,7 @@ const translations = {
       {
         question: "Which bottle from our collection would you like to use?",
         subtitle: "Choose the design that suits you best",
-        options: ["Perfume 1", "Perfume 2", "Perfume 3"],
+        options: ["Bottle 1", "Bottle 2", "Bottle 3"],
       },
     ],
     results: {
@@ -191,7 +191,7 @@ const translations = {
       {
         question: "Quel flacon de notre collection souhaitez-vous utiliser ?",
         subtitle: "Choisissez le design qui vous correspond le mieux",
-        options: ["Parfum 1", "Parfum 2", "Parfum 3"],
+        options: ["Bouteille 1", "Bouteille 2", "Bouteille 3"],
       },
     ],
     results: {
@@ -288,7 +288,7 @@ const questionData: Question[] = [
   },
   {
     id: 5,
-    values: ["perfume1", "perfume2", "perfume3"],
+    values: ["frasco1", "frasco2", "frasco3"],
     icons: [],
     isBottleQuestion: true,
   },
@@ -296,19 +296,19 @@ const questionData: Question[] = [
 
 const bottleImages = [
   {
-    id: "perfume1",
-    name: "Perfume 1",
-    src: "/images/perfume1.png",
+    id: "frasco1",
+    name: "Frasco 1",
+    src: "/images/frasco1.png",
   },
   {
-    id: "perfume2",
-    name: "Perfume 2",
-    src: "/images/perfume2.png",
+    id: "frasco2",
+    name: "Frasco 2",
+    src: "/images/frasco2.png",
   },
   {
-    id: "perfume3",
-    name: "Perfume 3",
-    src: "/images/perfume3.png",
+    id: "frasco3",
+    name: "Frasco 3",
+    src: "/images/frasco3.png",
   },
 ]
 
@@ -344,15 +344,15 @@ const getResult = (answers: Record<number, string>, lang: Language): EssenceResu
   }
 
   const getBottleName = (bottle: string) => {
-    if (bottle === "perfume1") return "Perfume 1"
-    if (bottle === "perfume2") return "Perfume 2"
-    return "Perfume 3"
+    if (bottle === "frasco1") return "Frasco 1"
+    if (bottle === "frasco2") return "Frasco 2"
+    return "Frasco 3"
   }
 
   const getBottleImage = (bottle: string) => {
-    if (bottle === "perfume1") return "/images/perfume1.png"
-    if (bottle === "perfume2") return "/images/perfume2.png"
-    return "/images/perfume3.png"
+    if (bottle === "frasco1") return "/images/frasco1.png"
+    if (bottle === "frasco2") return "/images/frasco2.png"
+    return "/images/frasco3.png"
   }
 
   if (objective === "foco") {

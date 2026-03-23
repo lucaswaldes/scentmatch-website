@@ -70,9 +70,9 @@ const objectiveIcons: Record<string, React.ReactNode> = {
 }
 
 const bottleLabels: Record<string, string> = {
-  perfume1: "Perfume 1",
-  perfume2: "Perfume 2",
-  perfume3: "Perfume 3",
+  frasco1: "Frasco 1",
+  frasco2: "Frasco 2",
+  frasco3: "Frasco 3",
 }
 
 const genderLabels: Record<string, string> = {
