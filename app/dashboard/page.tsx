@@ -70,9 +70,9 @@ const objectiveIcons: Record<string, React.ReactNode> = {
 }
 
 const bottleLabels: Record<string, string> = {
-  frasco1: "Frasco 1",
-  frasco2: "Frasco 2",
-  frasco3: "Frasco 3",
+  bottle1: "Bottle 1",
+  bottle2: "Bottle 2",
+  bottle3: "Bottle 3",
 }
 
 const genderLabels: Record<string, string> = {
@@ -110,63 +110,63 @@ type AdminLanguage = "pt" | "en"
 
 const adminTranslations = {
   pt: {
-    dashboardTitle: "Painel Administrativo",
-    analytics: "Análises",
+    dashboardTitle: "Dashboard Admin",
+    analytics: "Analytics",
     refresh: "Atualizar",
-    totalResponses: "Total de Respostas",
+    totalResponses: "Total Respostas",
     favoriteBottle: "Frasco Favorito",
     mainObjective: "Objetivo Principal",
     favoritePerfume: "Perfume Favorito",
-    overview: "Visão Geral",
+    overview: "Visao Geral",
     responses: "Respostas",
-    bottleDistribution: "Distribuição de Frascos",
-    objectiveDistribution: "Distribuição de Objetivos",
-    educationDistribution: "Distribuição por Escolaridade",
-    perfumeTypeDistribution: "Distribuição por Tipo de Perfume",
-    genderDistribution: "Distribuição por Gênero",
-    languageDistribution: "Distribuição por Idioma",
-    responseHistory: "Histórico de Respostas",
+    bottleDistribution: "Distribuicao de Frascos",
+    objectiveDistribution: "Distribuicao de Objetivos",
+    educationDistribution: "Distribuicao por Ensino",
+    perfumeTypeDistribution: "Distribuicao por Tipo de Perfume",
+    genderDistribution: "Distribuicao por Genero",
+    languageDistribution: "Distribuicao por Idioma",
+    responseHistory: "Historico de Respostas",
     noResponsesYet: "Nenhuma resposta ainda",
     noResponsesRegistered: "Nenhuma resposta registrada ainda",
-    responsesWillAppear: "As respostas do quiz aparecerão aqui",
+    responsesWillAppear: "As respostas do quiz aparecerao aqui",
     date: "Data",
     language: "Idioma",
-    education: "Escolaridade",
-    perfumeType: "Tipo de Perfume",
-    gender: "Gênero",
+    education: "Ensino",
+    perfumeType: "Tipo Perfume",
+    gender: "Genero",
     objective: "Objetivo",
     bottle: "Frasco",
-    essence: "Essência",
+    essence: "Essencia",
   },
   en: {
     dashboardTitle: "Admin Dashboard",
     analytics: "Analytics",
     refresh: "Refresh",
     totalResponses: "Total Responses",
-    favoriteBottle: "Most Selected Bottle",
-    mainObjective: "Primary Objective",
-    favoritePerfume: "Most Selected Perfume",
+    favoriteBottle: "Favorite Bottle",
+    mainObjective: "Main Objective",
+    favoritePerfume: "Favorite Perfume",
     overview: "Overview",
     responses: "Responses",
     bottleDistribution: "Bottle Distribution",
     objectiveDistribution: "Objective Distribution",
-    educationDistribution: "Education Level Distribution",
+    educationDistribution: "Education Distribution",
     perfumeTypeDistribution: "Perfume Type Distribution",
     genderDistribution: "Gender Distribution",
     languageDistribution: "Language Distribution",
     responseHistory: "Response History",
     noResponsesYet: "No responses yet",
-    noResponsesRegistered: "No responses have been registered yet",
+    noResponsesRegistered: "No responses registered yet",
     responsesWillAppear: "Quiz responses will appear here",
     date: "Date",
     language: "Language",
-    education: "Education Level",
+    education: "Education",
     perfumeType: "Perfume Type",
     gender: "Gender",
     objective: "Objective",
     bottle: "Bottle",
     essence: "Essence",
-  }
+  },
 }
 
 function calculateStats(responses: QuizResponse[]): Stats {
@@ -299,7 +299,7 @@ export default function AdminDashboard() {
             </div>
             <div>
               <h1 className="text-xl font-semibold text-foreground">{t.dashboardTitle}</h1>
-              <p className="text-sm text-muted-foreground">SCENT MATCH - {t.analytics}</p>
+              <p className="text-sm text-muted-foreground">Essence and Presence Collection - {t.analytics}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">

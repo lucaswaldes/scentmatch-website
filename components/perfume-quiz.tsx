@@ -10,73 +10,73 @@ type Language = "pt" | "en" | "fr"
 
 const translations = {
   pt: {
-    brandName: "SCENT MATCH",
+    brandName: "Essence and Presence Collection",
     of: "de",
     continue: "Continuar",
-    start: "Começar",
-    yourIdealEssence: "Sua essência ideal",
+    start: "Comecar",
+    yourIdealEssence: "Sua essencia ideal",
     redoQuiz: "Refazer o quiz",
     chosenBottle: "Frasco escolhido",
-    essenceNotes: "Notas da essência",
+    essenceNotes: "Notas da essencia",
     languageSelection: {
       title: "Escolha seu idioma",
-      subtitle: "Selecione o idioma de sua preferência",
+      subtitle: "Selecione o idioma de sua preferencia",
     },
     welcome: {
-      greeting: "Olá, seja bem-vindo, estudante",
-      subtitle: "Nos conte um pouco sobre você",
+      greeting: "Ola, seja bem-vindo estudante",
+      subtitle: "Nos conte um pouco sobre voce",
     },
     styleTitle: "Agora vamos entender seu estilo",
     questions: [
       {
-        question: "Em qual nível de ensino você está?",
-        subtitle: "Selecione sua fase acadêmica",
-        options: ["Médio", "Superior", "Pós-graduação", "Mestrado", "Doutorado", "Concurso", "Outros"],
+        question: "Qual ensino voce esta?",
+        subtitle: "Selecione sua fase academica",
+        options: ["Medio", "Superior", "Pos-graduacao", "Mestrado", "Doutorado", "Concurso", "Outros"],
       },
       {
-        question: "Qual tipo de perfume você mais gosta?",
-        subtitle: "Escolha sua preferência olfativa",
-        options: ["Doce", "Fresco", "Amadeirado", "Floral", "Marcante", "Não sei ainda"],
+        question: "Qual tipo de perfume voce mais gosta?",
+        subtitle: "Escolha sua preferencia olfativa",
+        options: ["Doce", "Fresco", "Amadeirado", "Floral", "Marcante", "Nao sei ainda"],
       },
       {
-        question: "Como você se identifica?",
-        subtitle: "Para personalizar sua recomendação",
+        question: "Como voce se identifica?",
+        subtitle: "Para personalizar sua recomendacao",
         options: ["Homem", "Mulher", "Outros"],
       },
       {
-        question: "Qual objetivo você busca?",
-        subtitle: "O que você precisa no seu dia a dia",
-        options: ["Memória e foco", "Energia mental - combate à fadiga de longas jornadas", "Melhora do humor e da clareza mental"],
+        question: "Qual o objetivo que voce busca?",
+        subtitle: "O que voce precisa no seu dia a dia",
+        options: ["Memoria e foco", "Energia mental - combate a fadiga de longas jornadas", "Melhora o humor e a clareza mental"],
       },
       {
-        question: "Qual frasco da nossa linha você gostaria de usar?",
-        subtitle: "Escolha o design que mais combina com você",
-        options: ["Frasco 1", "Frasco 2", "Frasco 3"],
+        question: "Qual frasco da nossa linha voce gostaria de usar?",
+        subtitle: "Escolha o design que mais combina com voce",
+        options: ["Bottle 1", "Bottle 2", "Bottle 3"],
       },
     ],
     results: {
       focusMode: {
         name: "Focus Mode",
         tagline: "Clareza mental em cada nota",
-        description: "Uma essência leve e refrescante que desperta sua concentração. Perfeita para longas sessões de estudo.",
-        emotionalMessage: "Você está no caminho certo. Continue focado — cada momento de dedicação aproxima você dos seus sonhos.",
+        description: "Uma essencia leve e refrescante que desperta sua concentracao. Perfeita para longas sessoes de estudo.",
+        emotionalMessage: "Voce esta no caminho certo. Continue focado, cada momento de dedicacao te aproxima dos seus sonhos.",
       },
       energyBoost: {
         name: "Energy Boost",
-        tagline: "Energia que impulsiona você",
-        description: "Uma essência vibrante que combate a fadiga e renova suas energias. Ideal para longas jornadas de estudo.",
-        emotionalMessage: "Sua determinação é admirável. Cada passo conta, e você tem a força necessária para chegar onde deseja.",
+        tagline: "Energia que te impulsiona",
+        description: "Uma essencia vibrante que combate a fadiga e renova suas energias. Ideal para longas jornadas de estudo.",
+        emotionalMessage: "Sua determinacao e admiravel. Cada passo conta, e voce tem a forca necessaria para chegar onde deseja.",
       },
       moodBalance: {
         name: "Mood Balance",
         tagline: "Harmonia para sua mente",
-        description: "Uma essência acolhedora que melhora o humor e traz clareza mental. Perfeita para equilibrar seu dia a dia.",
-        emotionalMessage: "Você merece esse momento de paz. Respire fundo e lembre-se: o equilíbrio é a chave para o sucesso.",
+        description: "Uma essencia acolhedora que melhora o humor e traz clareza mental. Perfeita para equilibrar seu dia a dia.",
+        emotionalMessage: "Voce merece esse momento de paz. Respire fundo e lembre-se: o equilibrio e a chave para o sucesso.",
       },
     },
   },
   en: {
-    brandName: "SCENT MATCH",
+    brandName: "Essence and Presence Collection",
     of: "of",
     continue: "Continue",
     start: "Start",
@@ -89,20 +89,20 @@ const translations = {
       subtitle: "Select your preferred language",
     },
     welcome: {
-      greeting: "Hello, welcome!",
+      greeting: "Hello, welcome student",
       subtitle: "Tell us a little about yourself",
     },
     styleTitle: "Now let's understand your style",
     questions: [
       {
-        question: "What is your current education level?",
-        subtitle: "Select your academic stage",
+        question: "What education level are you at?",
+        subtitle: "Select your academic phase",
         options: ["High School", "Undergraduate", "Postgraduate", "Master's", "Doctorate", "Civil Service Exam", "Other"],
       },
       {
-        question: "What type of perfume do you prefer?",
+        question: "What type of perfume do you like most?",
         subtitle: "Choose your olfactory preference",
-        options: ["Sweet", "Fresh", "Woody", "Floral", "Bold", "I'm not sure yet"],
+        options: ["Sweet", "Fresh", "Woody", "Floral", "Bold", "I don't know yet"],
       },
       {
         question: "How do you identify?",
@@ -110,16 +110,12 @@ const translations = {
         options: ["Man", "Woman", "Other"],
       },
       {
-        question: "What is your main goal?",
+        question: "What goal are you looking for?",
         subtitle: "What do you need in your daily life",
-        options: [
-          "Memory and focus",
-          "Mental energy – helps combat fatigue from long days",
-          "Improves your mood and mental clarity"
-        ],
+        options: ["Memory and focus", "Mental energy - combat fatigue from long days", "Improves mood and mental clarity"],
       },
       {
-        question: "Which bottle from our collection would you like to use?",
+        question: "Which bottle from our line would you like to use?",
         subtitle: "Choose the design that suits you best",
         options: ["Bottle 1", "Bottle 2", "Bottle 3"],
       },
@@ -128,93 +124,89 @@ const translations = {
       focusMode: {
         name: "Focus Mode",
         tagline: "Mental clarity in every note",
-        description: "A light and refreshing essence that enhances your concentration. Perfect for long study sessions.",
-        emotionalMessage: "You're on the right path. Stay focused—every moment of dedication brings you closer to your goals.",
+        description: "A light and refreshing essence that awakens your concentration. Perfect for long study sessions.",
+        emotionalMessage: "You are on the right path. Stay focused, every moment of dedication brings you closer to your dreams.",
       },
       energyBoost: {
         name: "Energy Boost",
-        tagline: "Energy that drives you forward",
+        tagline: "Energy that drives you",
         description: "A vibrant essence that fights fatigue and renews your energy. Ideal for long study days.",
-        emotionalMessage: "Your determination is admirable. Every step counts, and you have the strength to reach your goals.",
+        emotionalMessage: "Your determination is admirable. Every step counts, and you have the strength to get where you want.",
       },
       moodBalance: {
         name: "Mood Balance",
         tagline: "Harmony for your mind",
-        description: "A comforting essence that improves your mood and brings mental clarity. Perfect for balancing your day.",
+        description: "A welcoming essence that improves mood and brings mental clarity. Perfect for balancing your day.",
         emotionalMessage: "You deserve this moment of peace. Take a deep breath and remember: balance is the key to success.",
       },
     },
   },
   fr: {
-    brandName: "SCENT MATCH",
-    of: "de",
+    brandName: "Essence and Presence Collection",
+    of: "sur",
     continue: "Continuer",
     start: "Commencer",
-    yourIdealEssence: "Votre essence idéale",
+    yourIdealEssence: "Votre essence ideale",
     redoQuiz: "Refaire le quiz",
     chosenBottle: "Flacon choisi",
     essenceNotes: "Notes de l'essence",
     languageSelection: {
       title: "Choisissez votre langue",
-      subtitle: "Sélectionnez votre langue préférée",
+      subtitle: "Selectionnez votre langue preferee",
     },
     welcome: {
-      greeting: "Bonjour, bienvenue !",
+      greeting: "Bonjour, bienvenue etudiant",
       subtitle: "Parlez-nous un peu de vous",
     },
-    styleTitle: "Découvrons maintenant votre style",
+    styleTitle: "Maintenant, comprenons votre style",
     questions: [
       {
-        question: "Quel est votre niveau d'études ?",
-        subtitle: "Sélectionnez votre niveau académique",
-        options: ["Lycée", "Licence", "Postgraduate", "Master", "Doctorat", "Concours", "Autre"],
+        question: "Quel niveau d'etudes suivez-vous?",
+        subtitle: "Selectionnez votre phase academique",
+        options: ["Lycee", "Licence", "Post-graduation", "Master", "Doctorat", "Concours", "Autre"],
       },
       {
-        question: "Quel type de parfum préférez-vous ?",
-        subtitle: "Choisissez votre préférence olfactive",
-        options: ["Sucré", "Frais", "Boisé", "Floral", "Intense", "Je ne sais pas encore"],
+        question: "Quel type de parfum preferez-vous?",
+        subtitle: "Choisissez votre preference olfactive",
+        options: ["Sucre", "Frais", "Boise", "Floral", "Marquant", "Je ne sais pas encore"],
       },
       {
-        question: "Comment vous identifiez-vous ?",
+        question: "Comment vous identifiez-vous?",
         subtitle: "Pour personnaliser votre recommandation",
         options: ["Homme", "Femme", "Autre"],
       },
       {
-        question: "Quel est votre objectif ?",
+        question: "Quel objectif recherchez-vous?",
         subtitle: "Ce dont vous avez besoin au quotidien",
-        options: [
-          "Mémoire et concentration",
-          "Énergie mentale – aide à combattre la fatigue des longues journées",
-          "Améliore l'humeur et la clarté mentale"
-        ],
+        options: ["Memoire et concentration", "Energie mentale - combat la fatigue des longues journees", "Ameliore l'humeur et la clarte mentale"],
       },
       {
-        question: "Quel flacon de notre collection souhaitez-vous utiliser ?",
-        subtitle: "Choisissez le design qui vous correspond le mieux",
-        options: ["Bouteille 1", "Bouteille 2", "Bouteille 3"],
+        question: "Quel flacon de notre gamme aimeriez-vous utiliser?",
+        subtitle: "Choisissez le design qui vous correspond",
+        options: ["Parfum 1", "Parfum 2", "Parfum 3"],
       },
     ],
     results: {
       focusMode: {
         name: "Focus Mode",
-        tagline: "Clarté mentale à chaque note",
-        description: "Une essence légère et rafraîchissante qui améliore votre concentration. Parfaite pour les longues sessions d'étude.",
-        emotionalMessage: "Vous êtes sur la bonne voie. Restez concentré : chaque effort vous rapproche de vos objectifs.",
+        tagline: "Clarte mentale dans chaque note",
+        description: "Une essence legere et rafraichissante qui eveille votre concentration. Parfaite pour les longues sessions d'etude.",
+        emotionalMessage: "Vous etes sur la bonne voie. Restez concentre, chaque moment de dedication vous rapproche de vos reves.",
       },
       energyBoost: {
         name: "Energy Boost",
-        tagline: "Une énergie qui vous propulse",
-        description: "Une essence vibrante qui combat la fatigue et renouvelle votre énergie. Idéale pour les longues journées d'étude.",
-        emotionalMessage: "Votre détermination est admirable. Chaque pas compte, et vous avez la force d'atteindre vos objectifs.",
+        tagline: "L'energie qui vous propulse",
+        description: "Une essence vibrante qui combat la fatigue et renouvelle votre energie. Ideale pour les longues journees d'etude.",
+        emotionalMessage: "Votre determination est admirable. Chaque pas compte, et vous avez la force d'arriver ou vous voulez.",
       },
       moodBalance: {
         name: "Mood Balance",
         tagline: "Harmonie pour votre esprit",
-        description: "Une essence apaisante qui améliore l'humeur et apporte de la clarté mentale. Parfaite pour équilibrer votre quotidien.",
-        emotionalMessage: "Vous méritez ce moment de paix. Respirez profondément et rappelez-vous : l'équilibre est la clé du succès.",
+        description: "Une essence accueillante qui ameliore l'humeur et apporte de la clarte mentale. Parfaite pour equilibrer votre quotidien.",
+        emotionalMessage: "Vous meritez ce moment de paix. Respirez profondement et rappelez-vous: l'equilibre est la cle du succes.",
       },
     },
-  }
+  },
 }
 
 const languageLabels: Record<Language, string> = {
@@ -288,7 +280,7 @@ const questionData: Question[] = [
   },
   {
     id: 5,
-    values: ["frasco1", "frasco2", "frasco3"],
+    values: ["bottle1", "bottle2", "bottle3"],
     icons: [],
     isBottleQuestion: true,
   },
@@ -296,19 +288,19 @@ const questionData: Question[] = [
 
 const bottleImages = [
   {
-    id: "frasco1",
-    name: "Frasco 1",
-    src: "/images/frasco1.png",
+    id: "bottle1",
+    name: "Bottle 1",
+    src: "/images/bottle1.png",
   },
   {
-    id: "frasco2",
-    name: "Frasco 2",
-    src: "/images/frasco2.png",
+    id: "bottle2",
+    name: "Bottle 2",
+    src: "/images/bottle2.png",
   },
   {
-    id: "frasco3",
-    name: "Frasco 3",
-    src: "/images/frasco3.png",
+    id: "bottle3",
+    name: "Bottle 3",
+    src: "/images/bottle3.png",
   },
 ]
 
@@ -330,29 +322,29 @@ const getResult = (answers: Record<number, string>, lang: Language): EssenceResu
   const getNotes = (objective: string) => {
     if (objective === "foco") {
       if (lang === "pt") return ["Alecrim", "Menta", "Eucalipto"]
-      if (lang === "en") return ["Rosemary", "Mint", "Eucalyptus"]
+      if (lang === "en") return ["Rosemary", "Cedarwood", "Sandalwood", "Vetiver + Black Pepper", "White Musk + Amber"]
       return ["Romarin", "Menthe", "Eucalyptus"]
     }
     if (objective === "energia") {
       if (lang === "pt") return ["Laranja", "Gengibre", "Cardamomo"]
-      if (lang === "en") return ["Orange", "Ginger", "Cardamom"]
+      if (lang === "en") return ["Sicilian Lemon", "Bergamot", "Sweet Orange", "Ginger + Verbena", "Cedarwood + Ambroxan"]
       return ["Orange", "Gingembre", "Cardamome"]
     }
     if (lang === "pt") return ["Lavanda", "Camomila", "Bergamota"]
-    if (lang === "en") return ["Lavender", "Chamomile", "Bergamot"]
+    if (lang === "en") return ["Lavender", "Geranium + White Tea", "Peppermint", "Musk", "Vetiver + Amber"]
     return ["Lavande", "Camomille", "Bergamote"]
   }
 
   const getBottleName = (bottle: string) => {
-    if (bottle === "frasco1") return "Frasco 1"
-    if (bottle === "frasco2") return "Frasco 2"
-    return "Frasco 3"
+    if (bottle === "bottle1") return "Bottle 1"
+    if (bottle === "bottle2") return "Bottle 2"
+    return "Bottle 3"
   }
 
   const getBottleImage = (bottle: string) => {
-    if (bottle === "frasco1") return "/images/frasco1.png"
-    if (bottle === "frasco2") return "/images/frasco2.png"
-    return "/images/frasco3.png"
+    if (bottle === "bottle1") return "/images/bottle1.png"
+    if (bottle === "bottle2") return "/images/bottle2.png"
+    return "/images/bottle3.png"
   }
 
   if (objective === "foco") {
@@ -399,14 +391,14 @@ export interface QuizResponse {
 }
 
 export function PerfumeQuiz() {
-  const [language, setLanguage] = useState<Language | null>(null)
-  const [currentStep, setCurrentStep] = useState(-2) // -2: language selection, -1: welcome, 0+: questions
+  const [language] = useState<Language>("en") // Fixed to English
+  const [currentStep, setCurrentStep] = useState(-1) // -1: welcome, 0+: questions
   const [answers, setAnswers] = useState<Record<number, string>>({})
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
   const [showResult, setShowResult] = useState(false)
   const [isSaving, setIsSaving] = useState(false)
 
-  const t = language ? translations[language] : translations.pt
+  const t = translations[language]
   const totalSteps = questionData.length
   const progress = currentStep < 0 ? 0 : ((currentStep + 1) / totalSteps) * 100
   const currentQuestion = currentStep >= 0 ? questionData[currentStep] : null
@@ -414,11 +406,6 @@ export function PerfumeQuiz() {
 
   const handleOptionSelect = (value: string) => {
     setSelectedOption(value)
-  }
-
-  const handleLanguageSelect = (lang: Language) => {
-    setLanguage(lang)
-    setCurrentStep(-1)
   }
 
   const handleStart = () => {
@@ -475,8 +462,7 @@ export function PerfumeQuiz() {
   }
 
   const handleRestart = () => {
-    setCurrentStep(-2)
-    setLanguage(null)
+    setCurrentStep(-1)
     setAnswers({})
     setSelectedOption(null)
     setShowResult(false)
@@ -485,30 +471,24 @@ export function PerfumeQuiz() {
   const result = showResult && language ? getResult(answers, language) : null
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-[#0a1628] flex flex-col">
       {/* Progress Bar */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
-        <div className="h-1 bg-muted">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-[#0a1628]/90 backdrop-blur-sm">
+        <div className="h-1 bg-white/10">
           <motion.div
-            className="h-full bg-primary"
+            className="h-full bg-white/70"
             initial={{ width: 0 }}
             animate={{ width: showResult ? "100%" : `${progress}%` }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           />
         </div>
         <div className="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="text-sm font-medium text-muted-foreground tracking-wide">{t.brandName}</span>
+          <span className="text-sm font-medium text-white/60 tracking-wide">{t.brandName}</span>
           <div className="flex items-center gap-4">
             {currentStep >= 0 && !showResult && (
-              <span className="text-sm text-muted-foreground">
+              <span className="text-sm text-white/60">
                 {currentStep + 1} {t.of} {totalSteps}
               </span>
-            )}
-            {language && (
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm font-medium text-muted-foreground">
-                <Globe className="w-4 h-4" />
-                {languageLabels[language]}
-              </div>
             )}
           </div>
         </div>
@@ -517,46 +497,8 @@ export function PerfumeQuiz() {
       {/* Main Content */}
       <main className="flex-1 flex items-center justify-center px-6 pt-20 pb-12">
         <AnimatePresence mode="wait">
-          {/* Language Selection Screen */}
-          {currentStep === -2 && !showResult && (
-            <motion.div
-              key="language"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.4, ease: "easeOut" }}
-              className="w-full max-w-md text-center"
-            >
-              <div className="mb-10">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center">
-                  <Globe className="w-8 h-8 text-primary" />
-                </div>
-                <span className="text-sm font-medium text-muted-foreground tracking-wide">SCENT MATCH</span>
-              </div>
-
-              <div className="flex flex-col gap-3">
-                {(Object.keys(languageLabels) as Language[]).map((lang, index) => (
-                  <motion.button
-                    key={lang}
-                    onClick={() => handleLanguageSelect(lang)}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full p-5 rounded-2xl border-2 border-border bg-card transition-all duration-200 flex items-center justify-center gap-3 hover:border-primary hover:bg-primary/5 group"
-                  >
-                    <span className="text-2xl">{languageFlags[lang]}</span>
-                    <span className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">
-                      {languageFullNames[lang]}
-                    </span>
-                  </motion.button>
-                ))}
-              </div>
-            </motion.div>
-          )}
-
           {/* Welcome Screen */}
-          {currentStep === -1 && !showResult && language && (
+          {currentStep === -1 && !showResult && (
             <motion.div
               key="welcome"
               initial={{ opacity: 0, y: 20 }}
@@ -566,13 +508,13 @@ export function PerfumeQuiz() {
               className="w-full max-w-lg text-center"
             >
               <div className="mb-8">
-                <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center">
-                  <Sparkles className="w-10 h-10 text-primary" />
+                <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-white/10 flex items-center justify-center">
+                  <Sparkles className="w-10 h-10 text-white/80" />
                 </div>
-                <h1 className="text-3xl md:text-4xl font-semibold text-foreground tracking-tight text-balance mb-4">
+                <h1 className="text-3xl md:text-4xl font-semibold text-white tracking-tight text-balance mb-4">
                   {t.welcome.greeting}
                 </h1>
-                <p className="text-muted-foreground text-lg">
+                <p className="text-white/60 text-lg">
                   {t.welcome.subtitle}
                 </p>
               </div>
@@ -580,7 +522,7 @@ export function PerfumeQuiz() {
               <motion.button
                 onClick={handleStart}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-4 px-6 rounded-xl font-medium text-lg flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200"
+                className="w-full py-4 px-6 rounded-xl font-medium text-lg flex items-center justify-center gap-2 bg-white text-[#0a1628] hover:bg-white/90 transition-all duration-200"
               >
                 {t.start}
                 <ArrowRight className="w-5 h-5" />
@@ -589,7 +531,7 @@ export function PerfumeQuiz() {
           )}
 
           {/* Questions */}
-          {currentStep >= 0 && !showResult && currentQuestion && currentQuestionText && language && (
+          {currentStep >= 0 && !showResult && currentQuestion && currentQuestionText && (
             <motion.div
               key={`${currentStep}-${language}`}
               initial={{ opacity: 0, y: 20 }}
@@ -603,7 +545,7 @@ export function PerfumeQuiz() {
                 <motion.p
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-center text-primary font-medium mb-2"
+                  className="text-center text-white/80 font-medium mb-2"
                 >
                   {t.styleTitle}
                 </motion.p>
@@ -611,10 +553,10 @@ export function PerfumeQuiz() {
 
               {/* Question */}
               <div className="text-center mb-10">
-                <h1 className="text-2xl md:text-3xl font-semibold text-foreground tracking-tight text-balance">
+                <h1 className="text-2xl md:text-3xl font-semibold text-white tracking-tight text-balance">
                   {currentQuestionText.question}
                 </h1>
-                <p className="mt-3 text-muted-foreground text-base">
+                <p className="mt-3 text-white/60 text-base">
                   {currentQuestionText.subtitle}
                 </p>
               </div>
@@ -629,15 +571,15 @@ export function PerfumeQuiz() {
                       whileTap={{ scale: 0.98 }}
                       className={cn(
                         "relative p-3 rounded-2xl border-2 transition-all duration-200 flex flex-col items-center gap-3",
-                        "hover:border-primary/50",
+                        "hover:border-white/50",
                         selectedOption === currentQuestion.values[index]
-                          ? "border-primary bg-primary/5 shadow-sm"
-                          : "border-border bg-card"
+                          ? "border-white bg-white/10 shadow-sm"
+                          : "border-white/20 bg-white/5"
                       )}
                     >
                       {selectedOption === currentQuestion.values[index] && (
-                        <div className="absolute top-2 right-2 w-6 h-6 rounded-full bg-primary flex items-center justify-center">
-                          <Check className="w-4 h-4 text-primary-foreground" />
+                        <div className="absolute top-2 right-2 w-6 h-6 rounded-full bg-white flex items-center justify-center">
+                          <Check className="w-4 h-4 text-[#0a1628]" />
                         </div>
                       )}
                       <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg">
@@ -648,7 +590,7 @@ export function PerfumeQuiz() {
                           className="object-contain"
                         />
                       </div>
-                      <span className="text-sm font-medium text-foreground">
+                      <span className="text-sm font-medium text-white">
                         {currentQuestionText.options[index]}
                       </span>
                     </motion.button>
@@ -666,18 +608,18 @@ export function PerfumeQuiz() {
                       whileTap={{ scale: 0.98 }}
                       className={cn(
                         "w-full p-4 rounded-xl border-2 transition-all duration-200 flex items-center gap-4",
-                        "hover:border-primary/50 hover:bg-muted/50",
+                        "hover:border-white/50 hover:bg-white/10",
                         selectedOption === currentQuestion.values[index]
-                          ? "border-primary bg-primary/5 shadow-sm"
-                          : "border-border bg-card"
+                          ? "border-white bg-white/10 shadow-sm"
+                          : "border-white/20 bg-white/5"
                       )}
                     >
                       <div
                         className={cn(
                           "flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center transition-colors",
                           selectedOption === currentQuestion.values[index]
-                            ? "bg-primary text-primary-foreground"
-                            : "bg-muted text-muted-foreground"
+                            ? "bg-white text-[#0a1628]"
+                            : "bg-white/10 text-white/60"
                         )}
                       >
                         {currentQuestion.icons[index]}
@@ -686,14 +628,14 @@ export function PerfumeQuiz() {
                         className={cn(
                           "text-base font-medium text-left",
                           selectedOption === currentQuestion.values[index]
-                            ? "text-foreground"
-                            : "text-muted-foreground"
+                            ? "text-white"
+                            : "text-white/60"
                         )}
                       >
                         {option}
                       </span>
                       {selectedOption === currentQuestion.values[index] && (
-                        <Check className="w-5 h-5 ml-auto text-primary" />
+                        <Check className="w-5 h-5 ml-auto text-white" />
                       )}
                     </motion.button>
                   ))}
@@ -708,18 +650,18 @@ export function PerfumeQuiz() {
                 className={cn(
                   "w-full py-4 px-6 rounded-xl font-medium text-lg flex items-center justify-center gap-2 transition-all duration-200",
                   selectedOption !== null && !isSaving
-                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                    : "bg-muted text-muted-foreground cursor-not-allowed"
+                    ? "bg-white text-[#0a1628] hover:bg-white/90"
+                    : "bg-white/10 text-white/40 cursor-not-allowed"
                 )}
               >
-                {isSaving ? "Salvando..." : t.continue}
+                {isSaving ? "Saving..." : t.continue}
                 {!isSaving && <ArrowRight className="w-5 h-5" />}
               </motion.button>
             </motion.div>
           )}
 
           {/* Result */}
-          {showResult && result && language && (
+          {showResult && result && (
             <motion.div
               key="result"
               initial={{ opacity: 0, y: 20 }}
@@ -733,7 +675,7 @@ export function PerfumeQuiz() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.2 }}
-                  className="text-primary font-medium mb-2"
+                  className="text-white/80 font-medium mb-2"
                 >
                   {t.yourIdealEssence}
                 </motion.p>
@@ -741,7 +683,7 @@ export function PerfumeQuiz() {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
-                  className="text-3xl md:text-4xl font-semibold text-foreground tracking-tight mb-2"
+                  className="text-3xl md:text-4xl font-semibold text-white tracking-tight mb-2"
                 >
                   {result.name}
                 </motion.h1>
@@ -749,7 +691,7 @@ export function PerfumeQuiz() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4 }}
-                  className="text-muted-foreground text-lg italic"
+                  className="text-white/60 text-lg italic"
                 >
                   {result.tagline}
                 </motion.p>
@@ -775,24 +717,24 @@ export function PerfumeQuiz() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
-                className="bg-card rounded-2xl p-6 border border-border shadow-sm mb-6"
+                className="bg-white/5 rounded-2xl p-6 border border-white/10 shadow-sm mb-6"
               >
-                <p className="text-foreground leading-relaxed mb-6">
+                <p className="text-white/80 leading-relaxed mb-6">
                   {result.description}
                 </p>
 
-                <div className="flex items-center gap-3 pb-4 border-b border-border mb-4">
-                  <span className="text-sm font-medium text-muted-foreground">{t.chosenBottle}:</span>
-                  <span className="text-sm font-semibold text-foreground">{result.bottle}</span>
+                <div className="flex items-center gap-3 pb-4 border-b border-white/10 mb-4">
+                  <span className="text-sm font-medium text-white/60">{t.chosenBottle}:</span>
+                  <span className="text-sm font-semibold text-white">{result.bottle}</span>
                 </div>
 
                 <div className="mb-4">
-                  <span className="text-sm font-medium text-muted-foreground block mb-3">{t.essenceNotes}:</span>
+                  <span className="text-sm font-medium text-white/60 block mb-3">{t.essenceNotes}:</span>
                   <div className="flex flex-wrap gap-2">
                     {result.notes.map((note, index) => (
                       <span
                         key={index}
-                        className="px-3 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                        className="px-3 py-1.5 bg-white/10 text-white rounded-full text-sm font-medium"
                       >
                         {note}
                       </span>
@@ -806,9 +748,9 @@ export function PerfumeQuiz() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7 }}
-                className="bg-primary/5 rounded-2xl p-6 border border-primary/20 mb-8"
+                className="bg-white/5 rounded-2xl p-6 border border-white/20 mb-8"
               >
-                <p className="text-foreground text-center leading-relaxed italic">
+                <p className="text-white text-center leading-relaxed italic">
                   &ldquo;{result.emotionalMessage}&rdquo;
                 </p>
               </motion.div>
@@ -820,7 +762,7 @@ export function PerfumeQuiz() {
                 transition={{ delay: 0.8 }}
                 onClick={handleRestart}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-4 px-6 rounded-xl font-medium text-lg border-2 border-border text-foreground hover:bg-muted transition-all duration-200"
+                className="w-full py-4 px-6 rounded-xl font-medium text-lg border-2 border-white/20 text-white hover:bg-white/10 transition-all duration-200"
               >
                 {t.redoQuiz}
               </motion.button>
